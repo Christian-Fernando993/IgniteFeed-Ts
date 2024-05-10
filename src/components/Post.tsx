@@ -88,7 +88,7 @@ export function Post({post}: PostProps) {
               >
                 {publishedDateRelativeToNow}
               </time>
-            </div>
+          </div>
         </header>
         <div>
           {post.content.map(line => {
