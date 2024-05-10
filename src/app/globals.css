@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  background-color: #121214;
+  color: #C4C4CC;
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+:focus{
+  outline: transparent;
+  box-shadow: 0 0 0 2px #00B37E;
+}
+
+@media (max-width: 768px){
+  html{
+    font-size: 87.5%;
+  }
+}
